@@ -43,9 +43,9 @@ export const wordsList = {
     "Processador",
     "Memória",
     "HD",
-    "Placa-mãe",
+    "Memória",
     "Fonte",
-    "Placa de vídeo",
+    "Ventoinha",
   ],
   programação: [
     "Linguagem",
