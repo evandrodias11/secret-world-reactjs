@@ -60,9 +60,13 @@ const Game = ({
       </div>
       <div className="wrongLettersContainer">
         <p>Letras erradas:</p>
-        {wrongLetters.map((letter, i) => (
-          <span key={i}>{letter.toUpperCase()}, </span>
-        ))}
+        {wrongLetters.length > 0 ? (
+          wrongLetters.map((letter, i) => (
+            <span key={i}>{letter.toUpperCase()}, </span>
+          ))
+        ) : (
+          <span>nenhum erro ainda 😀</span>
+        )}
       </div>
     </div>
   );

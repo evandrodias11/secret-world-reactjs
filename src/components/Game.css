@@ -7,13 +7,14 @@
 }
 
 .tip span {
-  color: #ecfa00;
+  color: #e8f13b;
 }
 
 .wordContainer {
   margin: 1.5em;
   padding: 1.5em;
-  border: 20px solid #ecfa00;
+  border: 3px solid #e8f13b;
+  border-radius: 15px;
   display: flex;
 }
 
@@ -22,6 +23,7 @@
   font-size: 70px;
   line-height: 1.5;
   border: 3px solid #000;
+  border-radius: 15px;
   height: 100px;
   width: 100px;
   text-transform: uppercase;
@@ -49,5 +51,5 @@
 }
 
 .observation {
-  color: red;
+  color: #dce084;
 }
