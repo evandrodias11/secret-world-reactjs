@@ -44,6 +44,7 @@ const Game = ({
       </div>
       <div className="letterContainer">
         <p>Tente adivinhar uma letra da palavra:</p>
+        <p className="observation">obs.: digitar acento</p>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -60,7 +61,7 @@ const Game = ({
       <div className="wrongLettersContainer">
         <p>Letras erradas:</p>
         {wrongLetters.map((letter, i) => (
-          <span key={i}>{letter}, </span>
+          <span key={i}>{letter.toUpperCase()}, </span>
         ))}
       </div>
     </div>
