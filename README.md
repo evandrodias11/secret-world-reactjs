@@ -1,8 +1,11 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Jogo Secret World
+Acerte a palavra secreta, 3 erros permitidos
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
+<div align="center">
+<img src='https://github.com/evandrodias11/secret-world-reactjs/assets/65000871/10854489-26db-4a69-90e7-de18b4d4f645' alt="tela 1"/>
+<img src='https://github.com/evandrodias11/secret-world-reactjs/assets/65000871/0feaeb46-0f94-4256-a46a-8b45f7f1b21f' alt="tela 2"/>
+</div>
+<br/>
+Disponível online <a href='https://secret-world-reactjs.vercel.app/'>AQUI</a>
